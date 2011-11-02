@@ -1,0 +1,2 @@
+<div class="boxone"><font class="navfont">{TITLE}</font></div>
+<div class="boxthree"><font class="normfont">{MESSAGE}</font><center><FORM style="padding: 0px; margin: 0px"><INPUT TYPE="button" value ="{LINK-TEXT}" class="formcss" onClick="parent.location='{LINK}'"></FORM></center></div>
