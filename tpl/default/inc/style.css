@@ -10,6 +10,20 @@ a {
     color: #6C967A;
     text-decoration: none;
 }
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+td {
+    background-image: url("../img/td1.png");
+    background-repeat: repeat-x;
+    border: 1px solid #1E2E3D;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.05) inset;
+    padding: 4px;
+}
 #branding {
     background-image: url("../img/branding.png");
     height: 47px;
@@ -73,4 +87,22 @@ a {
     height: 29px;
     line-height: 29px;
     padding: 0 20px;
+}
+.marker {
+    padding: 5px;
+    width: 1%;
+}
+.posts {
+    background-image: url("../img/td2.png");
+    text-align: center;
+    width: 10%;
+}
+.info {
+    background-image: url("../img/td2.png");
+    width: 25%;
+}
+.catfoot {
+    background-image: url("../img/catfoot.png");
+    height: 13px;
+    padding: 0;
 }

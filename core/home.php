@@ -101,5 +101,5 @@ while ($user_online_row = mysql_fetch_array($user_online_sql)) {
 if (!$users) {
     $users = L_NONE;
 }
-$output .= $STYLE->tags($tpl, array("L_STATS" => $stats, "L_FORUM" => L_FORUM, "L_TOPICS" => L_TOPICS, "L_LATEST" => L_LATEST, "L_SUMMARY" => L_SUMMARY, "L_ONLINE" => L_ONLINE, "ONLINE_STATS" => $users));
+$output .= $STYLE->tags($tpl, array("L_STATS" => $stats, "L_FORUM" => L_FORUM, "L_TOPICS" => L_TOPICS, "L_LATEST" => L_LATEST, "L_SUMMARY" => L_SUMMARY, "L_ONLINE" => L_ONLINE, "ONLINE_STATS" => $users, "L_BOARDSTATS" => L_BOARDSTATS));
 ?>
