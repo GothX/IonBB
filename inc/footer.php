@@ -18,11 +18,6 @@ $system = new system();
 $version = $system->confdata('version');
 $sitename = $system->confdata('sitename');
 $url = $system->confdata('url') . '/' . $system->confdata('path') . '/';
-if ($system->group_permission($user->group($account['id']), 'acp') == '1') {
-    $admin_link = '<a href="' . $url . 'acp/" class="normfont">' . L_ADMIN_PANEL . '</a> |';
-} else {
-    $admin_link = '';
-}
 if ($system->group_permission($user->group($account['id']), 'rc') == '1') {
     $rc_link = '<a href="' . $url . 'rc/" class="normfont">' . L_RESOLUTION_CENTRE . '</a> |';
 } else {
@@ -31,7 +26,7 @@ if ($system->group_permission($user->group($account['id']), 'rc') == '1') {
 $report = '<a href="' . $url . '?s=report" class="normfont">' . L_REPORT . '</a> | ';
 $tos = ' <a href="' . $url . '?s=tos" class="normfont">' . L_TERMS_OF_SERVICE . '</a>';
 $groups = '<a href="' . $url . '?s=groups" class="normfont">' . L_GROUPS . '</a> | ';
-$output = $STYLE->tags($output, array("URL" => $url, "REPORT" => $report, "TOS" => $tos, "GROUPS" => $groups, "L_POWERED_BY" => L_POWERED_BY, "RC" => $rc_link, "ACP" => $admin_link, "GLOBAL_MENU" => $global_menu, "AREA" => $page_title, "SITELINK" => '<a href="' . $url . '" class="normfont">' . $sitename . '</a>', "PAGETITLE" => '' . $sitename . ' - ' . strip_tags($page_title) . ' - ' . L_POWERED_BY . ' ' . $version . '', "VERSION" => $version));
+$output = $STYLE->tags($output, array("URL" => $url, "REPORT" => $report, "TOS" => $tos, "GROUPS" => $groups, "L_POWERED_BY" => L_POWERED_BY, "RC" => $rc_link, "GLOBAL_MENU" => $global_menu, "AREA" => $page_title, "SITELINK" => '<a href="' . $url . '" class="normfont">' . $sitename . '</a>', "PAGETITLE" => '' . $sitename . ' - ' . strip_tags($page_title) . ' - ' . L_POWERED_BY . ' ' . $version . '', "VERSION" => $version));
 if (!$account) {
     $output = preg_replace('/\<!-- BEGIN logged_in -->(.*?)\<!-- END logged_in -->/is', '', $output);
 } else {

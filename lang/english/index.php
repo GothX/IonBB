@@ -10,7 +10,7 @@
 // NAVIGATION
 define('L_HOME','Home');
 define('L_REGISTER','Register');
-define('L_ACCOUNT','Account');
+define('L_ACCOUNT','User CP');
 define('L_LOGOUT','Logout');
 define('L_LOGIN','Login');
 define('L_PROFILE','Profile');
@@ -21,7 +21,7 @@ define('L_SETTINGS','Settings');
 define('L_SIGNATURE','Signature');
 define('L_AVATAR','Avatar');
 
-define('L_PANEL_MAIL','You have [MAIL] unread messages.');
+define('L_PANEL_MAIL','Inbox <small>([MAIL])</small>');
 define('L_MODERATORS','Moderators');
 define('L_MEMBERS','Members');
 

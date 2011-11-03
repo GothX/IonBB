@@ -1,12 +1,15 @@
 <?php
-
-/*
- * Project Name: KaiBB - http://www.kaibb.co.uk
- * Author: Christopher Shaw
- * This file belongs to KaiBB, it may be freely modified but this notice, and all copyright marks must be left
- * intact. See COPYING.txt
- */
-require("./inc/header.php");
+	/*
+		@project: IonBB
+		@web: http://avestri.co.cc/
+		@author: Matthew Lutz
+		@about: IonBB was created as a fork of KaiBB, written by Christopher Shaw.  IonBB was intended
+					to be an upgrade to KaiBB, bringing in new functionality, and fixing old issues.
+	*/
+	
+	require("./inc/header.php");
+	
+	
 
 // Installed Check
 if(!file_exists("./inc/config.php"))
