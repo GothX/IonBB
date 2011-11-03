@@ -62,7 +62,7 @@ define('L_PERMISSION_ERROR_ACTION','You do not have permission to perform this a
 // KEYS
 define('L_AUTHOR','Author');
 define('L_GUEST','Guest');
-define('L_POWERED_BY','Powered By KaiBB ');
+define('L_POWERED_BY','Powered By IonBB ');
 define('L_KAIBB','KaiBB');
 define('L_SUBMIT','Submit');
 define('L_CONTINUE','Continue');

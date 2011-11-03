@@ -24,6 +24,10 @@ td {
     box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.05) inset;
     padding: 4px;
 }
+form {
+	margin: 0;
+	padding: 0;
+}
 #branding {
     background-image: url("../img/branding.png");
     height: 47px;

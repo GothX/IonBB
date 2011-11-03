@@ -19,6 +19,7 @@
 <!-- BEGIN category_end -->
   <tr>
    <td class='catfoot' colspan='4'></td>
+  </tr>
  </table>
 </div>
 <!-- END category_end -->

@@ -3,3 +3,6 @@
 	$(".maintitle").each(function() { $(this).html("<div class='mtleft'><div class='mtright'>" + $(this).html() + "</div></div>");});
 </script>
 <!-- END three_piece_maintitle -->
+<div id='copyright'>
+ {L_POWERED_BY} {VERSION}
+</div>
